@@ -5,7 +5,7 @@ interface User {
   Role: Role;
 }
 
-type Role = "admin" | "user" | "supper-admin";
+export type Role = "admin" | "user" | "supper-admin";
 
 const defaultUser: User = {
   id: 1,
