@@ -5,7 +5,7 @@ interface User {
   firstName: string;
   lastName: string;
   role: Role;
-  posts: Post[];
+  posts: Array<Post>;
 }
 
 interface Post {
